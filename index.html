@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ÖĞRENCİ KAYDI</h1> 
+    <img width="100" height="100" src="profil.jpg"/>
+    <hr/>
+    <form method="post" action="#">
+        <fieldset>
+            <legend><b>Bilgiler</b></legend>
+            <label for="name">İsim</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="name"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Cinsiyet:
+
+            <input type="radio" name="cins" id="erkek"/>Erkek 
+            <input type="radio" name="cins" id="kadin"/>Kadın
+        <br/>
+        <br/>
+        <label for="soy">Soyisim</label>&nbsp;&nbsp;
+        <input type="text" id="soy"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="dil">Yabancı Dil</label><br/>
+        <label for="email">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" id="email"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="dil" multiple>
+            <option value="ing">ingilizce</option>
+            <option value="alm">Almanca</option>
+            <option value="fra">fransizca</option>
+            <option value="isp">Ispanyolca</option>
+            <option value="arp">Arapça</option>
+            <option value="rus">Rusça</option>
+        </select>
+       <br/>
+       <br/>
+       
+       
+
+        </fieldset>
+        
+    </form>
+    <br/>
+    <form method="post" action="#">
+        <fieldset>
+            <legend><b>Kurs Bilgileri</b></legend>
+            <label for="dil"><i>Katılmak İstediğiniz Kursu Seçiniz</i></label>
+            <br/><br/>             
+<input type="radio" name="bolum" id="mim"/>Cyber Security &nbsp;&nbsp;
+<input type="radio" name="bolum" id="egt"/>DewOps &nbsp;&nbsp;
+<input type="radio" name="bolum" id="muh"/>Full Stack Developer&nbsp;&nbsp;
+<input type="radio" name="bolum" id="muh"/>Data Science
+
+<br/><br/><br/>
+<label for="donem"><i>Sizin İçin Uygun Olan Kurs Dönemlerini Seçiniz</i></label><br/><br/>
+<input type="checkbox" name="tarih" id="mim1"/>1. Dönem (Ocak-Haziran)&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="checkbox" name="tarih" id="mim2"/>3. Dönem (Nisan-Eylül) <br/>
+<input type="checkbox" name="tarih" id="mim3"/>2. Dönem (Temmuz-Aralık)&nbsp;
+<input type="checkbox" name="tarih" id="mim4"/>4. Dönem (Ekim-Mart) <br/><br/>
+        </fieldset>
+        
+    </form>
+
+    <fieldset>
+        <legend><b>Öğrenciler</b></legend>
+    <table border=1 bordercolor="Blue">
+        <thead>
+            <tr>
+                <th id="th1">Isim</th>
+                <th id="th2">Mail</th>
+                <th id="th3">Diller</th>
+                <th id="th4">Bölüm</th>
+            </tr>
+           
+        </thead>
+        <tbody>
+            <tr>
+                <td>Can</td>
+                <td>can@gmail</td>
+                <td>İngilizce</td>
+                <td>Mühendislik</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>Umut</td>
+                <td>umut@gmail</td>
+                <td>Almanca</td>
+                <td>Eğitim</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>Fatih</td>
+                <td>fatih@gmail</td>
+                <td>Ispanyolca</td>
+                
+                <td>Mimarlık</td>
+            </tr>
+        </tbody>
+    </fieldset>
+    </table>
+  
+   
+ 
+</body>
+</html>
